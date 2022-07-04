@@ -11,12 +11,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for EditorAddRemove.xaml

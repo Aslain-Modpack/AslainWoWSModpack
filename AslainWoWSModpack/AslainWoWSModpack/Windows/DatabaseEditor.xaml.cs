@@ -1,6 +1,6 @@
 ﻿using Microsoft.Win32;
-using RelhaxModpack.Database;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.UI;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,21 +16,21 @@ using Microsoft.WindowsAPICodePack;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Windows.Threading;
 using System.Text.RegularExpressions;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities;
-using Trigger = RelhaxModpack.Database.Trigger;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using Trigger = AslainWoWSModpack.Database.Trigger;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
 using System.Windows.Controls.Primitives;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 using System.ComponentModel;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Installer;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Installer;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for DatabaseEditor.xaml

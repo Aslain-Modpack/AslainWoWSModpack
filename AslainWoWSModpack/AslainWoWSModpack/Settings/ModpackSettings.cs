@@ -8,12 +8,12 @@ using System.Xml;
 using System.Windows;
 using System.Reflection;
 using System.Globalization;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System.Xml.Linq;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack.Settings
+namespace AslainWoWSModpack.Settings
 {
     /// <summary>
     /// Provides access to all settings used in the modpack.

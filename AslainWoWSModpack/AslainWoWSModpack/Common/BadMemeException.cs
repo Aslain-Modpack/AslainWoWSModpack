@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {   
     /// <summary>
     /// An exception used mostly for mistakes that could happen during development, 'sanity check' type verification. And also for bad memes.

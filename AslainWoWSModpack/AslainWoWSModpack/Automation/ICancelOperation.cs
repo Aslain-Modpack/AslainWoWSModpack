@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// Provides a method to cancel a running automation task via the Cancel method.

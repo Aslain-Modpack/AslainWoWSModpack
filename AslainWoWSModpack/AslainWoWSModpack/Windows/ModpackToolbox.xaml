@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelhaxModpack.Windows"
-        x:Class="RelhaxModpack.Windows.ModpackToolbox"
+        xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
+        x:Class="AslainWoWSModpack.Windows.ModpackToolbox"
         mc:Ignorable="d"
         Title="Modpack Toolbox" Height="480" Width="1200" MinHeight="300" MinWidth="400"
         Loaded="RelhaxWindow_Loaded" Closing="OnApplicationClose" LocalizeWindow="False" ApplyToolTips="False">

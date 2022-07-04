@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Downloads a zip file of the sequence's database package entry to disk.

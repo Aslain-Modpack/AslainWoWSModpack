@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Start a compare session by resetting the automation compare manager.

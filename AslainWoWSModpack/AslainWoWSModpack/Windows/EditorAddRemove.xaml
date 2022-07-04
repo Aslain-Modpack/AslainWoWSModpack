@@ -1,9 +1,9 @@
-﻿<local:RelhaxWindow x:Class="RelhaxModpack.Windows.EditorAddRemove"
+﻿<local:RelhaxWindow x:Class="AslainWoWSModpack.Windows.EditorAddRemove"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelhaxModpack.Windows"
+        xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
         mc:Ignorable="d"
         Title="Add or Move Package" Height="200" Width="250" MinHeight="200" MinWidth="250"
         Loaded="RelhaxWindow_Loaded" LocalizeWindow="False" ApplyToolTips="False">

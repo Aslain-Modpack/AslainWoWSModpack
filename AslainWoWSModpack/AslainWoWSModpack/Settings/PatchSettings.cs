@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Settings
+namespace AslainWoWSModpack.Settings
 {
     /// <summary>
     /// Defines the settings used for the patch class

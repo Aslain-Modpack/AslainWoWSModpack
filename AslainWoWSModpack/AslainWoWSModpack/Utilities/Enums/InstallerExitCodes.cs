@@ -1,4 +1,4 @@
-﻿namespace RelhaxModpack.Utilities.Enums
+﻿namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// Possible points at which the installer can fail

@@ -1,15 +1,15 @@
-﻿using RelhaxModpack.Windows;
+﻿using AslainWoWSModpack.Windows;
 using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Threading;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// A utility class to handle UI interaction

@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Installer
+namespace AslainWoWSModpack.Installer
 {
     /// <summary>
     /// An Instruction is a task to be performed by the installer after packages are extracted.

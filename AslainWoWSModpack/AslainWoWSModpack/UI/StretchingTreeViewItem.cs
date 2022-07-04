@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// Allows for the header control to stretch all the way across a filling container

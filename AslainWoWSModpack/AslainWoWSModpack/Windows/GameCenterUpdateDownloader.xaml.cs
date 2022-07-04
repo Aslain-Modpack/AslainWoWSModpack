@@ -11,13 +11,13 @@ using System.Web;
 using System.Net;
 using System.Xml;
 using System.Windows.Threading;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// The object used in getting the value for the php update request

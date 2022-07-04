@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F59D2189-09C4-4C10-96A2-6D5217FF4CA2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>RelhaxModpack</RootNamespace>
-    <AssemblyName>RelhaxModpack</AssemblyName>
+    <RootNamespace>AslainWoWSModpack</RootNamespace>
+    <AssemblyName>AslainWoWSModpack</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,7 +48,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>bin\Debug\RelhaxModpack.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\AslainWoWSModpack.xml</DocumentationFile>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <CodeAnalysisRuleSet>Properties\RelhaxModpack.ruleset</CodeAnalysisRuleSet>
     <NoWarn>CS1658, CS4014, CA1009, CA1065, CA0507, 1009, IDE0060, IDE0044</NoWarn>
@@ -64,17 +64,19 @@
     <CodeAnalysisRuleSet>Properties\RelhaxModpack.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RelhaxModpack.App</StartupObject>
+    <StartupObject>AslainWoWSModpack.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\modpack_icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\wows_exe.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework.Aero" />
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -762,11 +764,10 @@
     <Resource Include="Resources\Licences\NAudio.txt" />
     <Resource Include="Resources\Licences\SpriteSheetPacker.txt" />
     <Resource Include="Resources\Licences\TeximpNet.txt" />
-    <Resource Include="Resources\modpack_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>echo namespace RelhaxModpack &gt; "$(ProjectDir)\Common\CiInfo.cs"
+    <PreBuildEvent>echo namespace AslainWoWSModpack &gt; "$(ProjectDir)\Common\CiInfo.cs"
 echo { &gt;&gt; "$(ProjectDir)\Common\CiInfo.cs"
 echo     ///^&lt;summary^&gt;Info about the continuous integration server build that produced this binary.^&lt;/summary^&gt; &gt;&gt; "$(ProjectDir)\Common\CiInfo.cs"
 echo     public static class CiInfo &gt;&gt; "$(ProjectDir)\Common\CiInfo.cs"
@@ -895,5 +896,8 @@ if exist "$(ProjectDir)\relhaxmodpackprivatesettings\PrivateStuff.cs" copy "$(Pr
     <EmbeddedResource Include="Resources\DLL\FreeImage64.zip" />
     <EmbeddedResource Include="Resources\DLL\nvtt32.zip" />
     <EmbeddedResource Include="Resources\DLL\nvtt64.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wows_exe.ico" />
   </ItemGroup>
 </Project>

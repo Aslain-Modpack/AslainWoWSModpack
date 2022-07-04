@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     //modified from https://stackoverflow.com/a/6782715/3128017
 

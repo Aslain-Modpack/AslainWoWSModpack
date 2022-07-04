@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using TeximpNet;
 using TeximpNet.Compression;
 
-namespace RelhaxModpack.Atlases
+namespace AslainWoWSModpack.Atlases
 {
     /// <summary>
     /// Class for handling loading and saving of DDS atlas files.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.Enums
+namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// The type of browser engine to use when running a browser session during task execution.

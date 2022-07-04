@@ -1,4 +1,4 @@
-﻿using RelhaxModpack.Common;
+﻿using AslainWoWSModpack.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// An interface for all components in the database.

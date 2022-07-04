@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.ClassEventArgs
+namespace AslainWoWSModpack.Utilities.ClassEventArgs
 {
     /// <summary>
     /// Event argument class when a log message is sent to a subscribed event

@@ -1,4 +1,4 @@
-﻿namespace RelhaxModpack.Utilities.Enums
+﻿namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// List of possible return code error conditions that can occur when loading the database.

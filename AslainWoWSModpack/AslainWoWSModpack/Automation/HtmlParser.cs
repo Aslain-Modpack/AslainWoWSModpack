@@ -1,5 +1,5 @@
 ﻿using HtmlAgilityPack;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.XPath;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// An HtmlParser class enables retrieval of a string of html and parsing for specific values using HtmlPath.

@@ -1,4 +1,4 @@
-﻿namespace RelhaxModpack.Utilities.Enums
+﻿namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// The supported types of media formats supported for preview in the application

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// Provides an interface of all commonly used functions for all browser API implementations to use when running automation tasks.

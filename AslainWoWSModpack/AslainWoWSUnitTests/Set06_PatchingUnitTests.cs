@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RelhaxModpack;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 

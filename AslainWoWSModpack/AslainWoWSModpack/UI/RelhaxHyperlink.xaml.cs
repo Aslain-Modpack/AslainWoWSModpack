@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// Interaction logic for RelhaxHyperlink.xaml

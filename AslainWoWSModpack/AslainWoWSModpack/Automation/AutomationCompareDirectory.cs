@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// An AutomationCompareDirectory object is a comparison between two different directories to check if the number and name of files are equal.

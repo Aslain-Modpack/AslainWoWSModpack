@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.ClassEventArgs
+namespace AslainWoWSModpack.Utilities.ClassEventArgs
 {
     /// <summary>
     /// Event args returned to the editor for when an FTP upload or download is complete

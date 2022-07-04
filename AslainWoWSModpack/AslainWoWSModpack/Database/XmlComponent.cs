@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ using System.Windows.Controls;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// An XmlComponent is a base class of a database object that can be serialized to and from memory and xml documents.

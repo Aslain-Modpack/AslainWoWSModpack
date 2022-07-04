@@ -1,6 +1,6 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Installer;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Installer;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RelhaxModpack.Atlases
+namespace AslainWoWSModpack.Atlases
 {
     /// <summary>
     /// A class that serves as a xml representation of atlas creation instructions.

@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Automation.Tasks;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Automation.Tasks;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// An AutomationCompare object is a comparison between two different IO related sources to check if both are equal.

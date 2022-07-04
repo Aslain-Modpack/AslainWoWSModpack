@@ -1,6 +1,6 @@
 ﻿using TeximpNet.Unmanaged;
 
-namespace RelhaxModpack.Atlases
+namespace AslainWoWSModpack.Atlases
 {
     /// <summary>
     /// Represents an interface that all unmanaged libraries in the Modpack use. Allows for one method of testing.

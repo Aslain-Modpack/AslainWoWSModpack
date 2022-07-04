@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
 #pragma warning disable CS1591
     public static class PrivateStuff

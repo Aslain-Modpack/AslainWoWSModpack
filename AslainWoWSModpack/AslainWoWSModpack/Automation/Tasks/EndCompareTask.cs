@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// End a compare session by closing the automation compare manager.

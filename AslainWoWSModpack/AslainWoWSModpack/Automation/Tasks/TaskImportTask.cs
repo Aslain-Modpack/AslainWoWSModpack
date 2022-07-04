@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Import a list of tasks from a sequence xml document by inserting them in to the list of tasks to execute.

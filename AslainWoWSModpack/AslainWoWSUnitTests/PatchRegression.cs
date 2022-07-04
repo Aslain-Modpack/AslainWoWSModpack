@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
 
-namespace RelhaxModpack.Patching
+namespace AslainWoWSModpack.Patching
 {
     /// <summary>
     /// A regression object is an entire regression test suite. Manages the unit tests and runs the test assertions

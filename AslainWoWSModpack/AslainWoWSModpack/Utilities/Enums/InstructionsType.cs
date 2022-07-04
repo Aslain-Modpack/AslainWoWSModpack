@@ -1,4 +1,4 @@
-﻿namespace RelhaxModpack.Utilities.Enums
+﻿namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// The supported instruction types that can be loaded for execution

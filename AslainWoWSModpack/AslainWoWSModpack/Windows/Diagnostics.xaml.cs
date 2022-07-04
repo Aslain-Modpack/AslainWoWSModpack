@@ -8,15 +8,15 @@ using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Win32;
 using Ionic.Zip;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.UI;
 using System.Text;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for Diagnostics.xaml

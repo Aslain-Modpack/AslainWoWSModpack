@@ -1,10 +1,10 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Windows;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Windows;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,10 +18,10 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using RelhaxModpack.Automation.Tasks;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.Automation.Tasks;
+using AslainWoWSModpack.UI;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// An AutomationSequence is a container to store a list of Automation tasks for updating a database package.

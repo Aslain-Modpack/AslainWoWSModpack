@@ -1,4 +1,4 @@
-﻿namespace RelhaxModpack.Utilities.Enums
+﻿namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// The primary functional modes the application can run in

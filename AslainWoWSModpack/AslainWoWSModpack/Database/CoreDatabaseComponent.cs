@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// A CoreDatabaseComponent class is an XmlComponent to be saved/loaded to/from xml, but contains a list of maintainers of that component.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Atlases.Packing
+namespace AslainWoWSModpack.Atlases.Packing
 {
     /// <summary>Insufficient space left in packing area to contain a given object</summary>
     /// <remarks>

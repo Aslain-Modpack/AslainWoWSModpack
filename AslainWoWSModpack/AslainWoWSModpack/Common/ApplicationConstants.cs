@@ -1,6 +1,6 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Common
+namespace AslainWoWSModpack.Common
 {
     /// <summary>
     /// Contains common fields and properties used throughout the entire application.
@@ -88,7 +88,7 @@ namespace RelhaxModpack.Common
         /// <remarks>
         /// This file contains the display names and file names of developer selections shown in the "Developer Selections" window.
         /// </remarks>
-        /// <seealso cref="RelhaxModpack.Windows.DeveloperSelectionsViewer"/>
+        /// <seealso cref="AslainWoWSModpack.Windows.DeveloperSelectionsViewer"/>
         public const string SelectionsXml = "selections.xml";
 
         /// <summary>

@@ -1,6 +1,6 @@
-﻿using RelhaxModpack.Settings;
+﻿using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for ExceptionCaptureDisplay.xaml

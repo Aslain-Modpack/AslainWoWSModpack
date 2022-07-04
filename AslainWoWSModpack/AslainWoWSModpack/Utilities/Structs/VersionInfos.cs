@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.Structs
+namespace AslainWoWSModpack.Utilities.Structs
 {
     /// <summary>
     /// A structure to hold the version of a WoT client and it's corresponding online FTP folder name that a database who's client is using.

@@ -1,6 +1,6 @@
-﻿using RelhaxModpack.Settings;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +14,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Microsoft.Win32;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
 using System.IO;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for WoTClientSelection.xaml

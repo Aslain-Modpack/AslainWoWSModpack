@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RelhaxModpack.Utilities.Enums
+namespace AslainWoWSModpack.Utilities.Enums
 {
 #pragma warning disable CS1591
     ///<Summary>

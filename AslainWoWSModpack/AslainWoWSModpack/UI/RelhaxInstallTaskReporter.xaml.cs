@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Settings;
-using RelhaxModpack.Windows;
+﻿using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Windows;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// States of the Task reporter in display to the UI

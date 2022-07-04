@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:RelhaxModpack.Windows"
-                    xmlns:ui="clr-namespace:RelhaxModpack.UI">
+                    xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
+                    xmlns:ui="clr-namespace:AslainWoWSModpack.UI">
     <!-- dark theme done in a way that's actually good. uses all the WPF -->
     <!-- add some static colors -->
     <Color x:Key="DarkThemeHighlightColor" A="255" R="134" B="134" G="134"/>

@@ -7,12 +7,12 @@ using System.IO;
 using System.Reflection;
 using TeximpNet.Unmanaged;
 using Ionic.Zip;
-using RelhaxModpack.Atlases;
+using AslainWoWSModpack.Atlases;
 using TeximpNet;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// A wrapper class around the TexImpNet FreeImage library class.

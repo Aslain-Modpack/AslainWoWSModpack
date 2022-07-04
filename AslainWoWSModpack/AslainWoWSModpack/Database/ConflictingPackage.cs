@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// Represents an entry for a package that conflicts with another package in the database where both options cannot be selected at the same time.

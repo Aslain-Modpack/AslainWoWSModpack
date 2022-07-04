@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// A FileDeleteTask will delete a file at a given path.

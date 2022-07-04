@@ -1,25 +1,25 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RelhaxUnitTests;
-using RelhaxModpack;
-using RelhaxModpack.Windows;
+using AslainWoWSModpack;
+using AslainWoWSModpack.Windows;
 using System.Collections;
 using System.Collections.Generic;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Database;
 using System.Threading.Tasks;
 using System.Windows.Controls;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.UI;
 using System.Windows;
 using System.IO;
 using System.Windows.Threading;
 using System.Threading;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Utilities.Enums;
 using System.Xml;
-using RelhaxModpack.Xml;
+using AslainWoWSModpack.Xml;
 
 namespace RelhaxInstallerUnitTester
 {
@@ -69,7 +69,7 @@ namespace RelhaxInstallerUnitTester
             }
 
             //get the managerInfo document
-            ((App)RelhaxModpack.App.Current).ManagerInfoZipfile = await CommonUtils.GetManagerInfoZipfileAsync(true);
+            ((App)AslainWoWSModpack.App.Current).ManagerInfoZipfile = await CommonUtils.GetManagerInfoZipfileAsync(true);
 
             Logging.Info("Loading translations for windows");
             Translations.LoadTranslations();
@@ -103,7 +103,7 @@ namespace RelhaxInstallerUnitTester
 
             };
 
-            databaseManager = new DatabaseManager(modpackSettings, commandLineSettings) { ManagerInfoZipfile = ((App)RelhaxModpack.App.Current).ManagerInfoZipfile };
+            databaseManager = new DatabaseManager(modpackSettings, commandLineSettings) { ManagerInfoZipfile = ((App)AslainWoWSModpack.App.Current).ManagerInfoZipfile };
         }
         
         [TestMethod]

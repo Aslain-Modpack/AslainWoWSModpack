@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// An AutomationMacro object represents a key-value pair that allows replacement of text inside task objects with bracket notation ({}).

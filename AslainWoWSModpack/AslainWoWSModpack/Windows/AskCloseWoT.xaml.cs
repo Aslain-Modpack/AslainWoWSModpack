@@ -1,4 +1,4 @@
-﻿using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -13,10 +13,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// A return enumeration for the result of the AskCloseWoT window

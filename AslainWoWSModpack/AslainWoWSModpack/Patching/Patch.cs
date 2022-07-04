@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Windows.Controls;
 using System.Linq;
-using RelhaxModpack.Common;
-using RelhaxModpack.Installer;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Installer;
+using AslainWoWSModpack.Database;
 
-namespace RelhaxModpack.Patching
+namespace AslainWoWSModpack.Patching
 {
     /// <summary>
     /// A patch is an instruction object of how to modify a text file. Can be a json, xml, or plain text file

@@ -139,9 +139,6 @@
   <data name="Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="modpack_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\modpack_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="modpack_license_agrement" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Licences\modpack_license_agrement.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
@@ -189,5 +186,8 @@
   </data>
   <data name="WindowsAPICodePack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Licences\WindowsAPICodePack.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="wows_exe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wows_exe.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

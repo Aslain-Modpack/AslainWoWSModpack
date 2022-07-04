@@ -4,11 +4,11 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using RelhaxModpack;
+using AslainWoWSModpack;
 using System.IO;
 using System.Diagnostics;
 using System.Reflection;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
 namespace RelhaxUnitTests
 {
@@ -28,10 +28,10 @@ namespace RelhaxUnitTests
         public static string[] ListOfLogfilenames = new string[]
         {
             Logging.ApplicationLogFilename,
-            RelhaxModpack.Windows.DatabaseEditor.LoggingFilename,
-            RelhaxModpack.Windows.PatchDesigner.LoggingFilename,
-            RelhaxModpack.Windows.DatabaseAutomationRunner.LoggingFilename,
-            RelhaxModpack.Windows.ModpackToolbox.LoggingFilename
+            AslainWoWSModpack.Windows.DatabaseEditor.LoggingFilename,
+            AslainWoWSModpack.Windows.PatchDesigner.LoggingFilename,
+            AslainWoWSModpack.Windows.DatabaseAutomationRunner.LoggingFilename,
+            AslainWoWSModpack.Windows.ModpackToolbox.LoggingFilename
         };
 
         /// <summary>

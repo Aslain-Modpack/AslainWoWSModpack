@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,7 +17,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for NewsViewer.xaml

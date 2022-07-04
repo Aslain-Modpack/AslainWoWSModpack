@@ -1,7 +1,7 @@
 ﻿
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Database;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// The EditorComboBoxItem class is a wrapper class for displaying DatabaseObjects as combo box items. The ToString() allows for display of the internal PackageName property

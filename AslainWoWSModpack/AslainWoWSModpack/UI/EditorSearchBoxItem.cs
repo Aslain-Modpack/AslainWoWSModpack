@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System.Windows.Controls;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// The EditorSearchBoxItem class is a wrapper class for displaying DatabaseObjects as combo box items. The ToString() allows for display of any string property

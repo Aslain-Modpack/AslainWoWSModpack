@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Uploads a zip file to the sequence's database package entry to the loaded database's online FTP folder.

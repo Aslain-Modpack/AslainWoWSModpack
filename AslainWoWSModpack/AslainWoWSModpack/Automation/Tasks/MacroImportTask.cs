@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Import of a list of macros from another automation sequence xml file or a macro definitions xml file.

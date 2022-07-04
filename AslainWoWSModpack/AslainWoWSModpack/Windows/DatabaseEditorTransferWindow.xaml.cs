@@ -4,13 +4,13 @@ using System.Windows;
 using System.Net;
 using System.IO;
 using System.Windows.Threading;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// The delegate for invocation of when the FTP upload or download finishes

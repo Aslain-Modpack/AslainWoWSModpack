@@ -17,18 +17,18 @@ using File = System.IO.File;
 using System.Drawing;
 using System.Windows.Media.Imaging;
 using System.Web;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Database;
 using System.Runtime.CompilerServices;
-using RelhaxModpack.Xml;
+using AslainWoWSModpack.Xml;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using System.Xml.Linq;
 using System.Collections;
-using RelhaxModpack.Common;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Utilities
+namespace AslainWoWSModpack.Utilities
 {
     /// <summary>
     /// A utility class for static functions used in various places in the modpack

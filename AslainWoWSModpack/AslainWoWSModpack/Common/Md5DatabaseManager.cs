@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace RelhaxModpack.Common
+namespace AslainWoWSModpack.Common
 {
     /// <summary>
     /// Provides a method to write and read file hash values for files in a folder, and determining if a local copy of a file is up to date based on what the server hash and/or file time is.

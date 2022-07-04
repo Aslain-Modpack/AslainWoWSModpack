@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// A MacroStringInputMacroTask allows for creation of a macro by using an already existing macro and a custom string retrieval implementation.

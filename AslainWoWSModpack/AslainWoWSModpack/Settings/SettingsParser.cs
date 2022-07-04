@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities.Enums;
 using System.Xml;
 using System.IO;
 using System.Reflection;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Utilities;
 using System.Xml.XPath;
 
-namespace RelhaxModpack.Settings
+namespace AslainWoWSModpack.Settings
 {
     /// <summary>
     /// A helper class to parse a settings object to and from xml

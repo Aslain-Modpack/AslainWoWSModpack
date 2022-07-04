@@ -1,8 +1,8 @@
-﻿using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Utilities;
 using System;
 using System.Net;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// A WebClient that allows the use to set a custom timeout value

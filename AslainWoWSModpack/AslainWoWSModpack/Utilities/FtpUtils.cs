@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities
+namespace AslainWoWSModpack.Utilities
 {
     /// <summary>
     /// A Utility class for handling FTP connections

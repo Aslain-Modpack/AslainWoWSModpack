@@ -1,9 +1,9 @@
 ﻿using System;
-using RelhaxModpack;
+using AslainWoWSModpack;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Security.Cryptography;
 using System.Linq;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
 namespace RelhaxUnitTests
 {

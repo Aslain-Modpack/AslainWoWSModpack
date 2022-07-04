@@ -1,4 +1,4 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Provides a definition for tasks that have a destination for their operation.

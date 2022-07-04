@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Provides an implementation to import a list of xml objects into an already existing list of objects.

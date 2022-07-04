@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Provides an implementation for transferring database package zip files for the database package of this sequence.

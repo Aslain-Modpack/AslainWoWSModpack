@@ -8,7 +8,7 @@
 *.sln.docstates
 CiInfo.cs
 
-RelhaxModpack_TemporaryKey.pfx
+AslainWoWSModpack_TemporaryKey.pfx
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -197,9 +197,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-/RelhaxModpack/RelhaxModpack/relhaxmodpackprivatesettings
-/RelhaxDocumentation/RelhaxDocumentation/Help
+/AslainWoWSModpack/AslainWoWSModpack/AslainWoWSModpackprivatesettings
 *.code-workspace
-/RelhaxModpack/RelhaxUnitTests/Resources/atlas_out
-/RelhaxModpack/.vsBack/
-/RelhaxModpack/RelhaxModpack/Resources/DLL
+/AslainWoWSModpack/AslainWoWSUnitTests/Resources/atlas_out
+/AslainWoWSModpack/.vsBack/
+/AslainWoWSModpack/AslainWoWSModpack/Resources/DLL

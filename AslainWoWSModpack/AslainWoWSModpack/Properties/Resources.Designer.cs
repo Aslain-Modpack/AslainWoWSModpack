@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RelhaxModpack.Properties {
+namespace AslainWoWSModpack.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace RelhaxModpack.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RelhaxModpack.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AslainWoWSModpack.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -206,16 +206,6 @@ namespace RelhaxModpack.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon modpack_icon {
-            get {
-                object obj = ResourceManager.GetObject("modpack_icon", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to                                  Apache License
         ///                           Version 2.0, January 2004
         ///                        http://www.apache.org/licenses/
@@ -365,6 +355,16 @@ namespace RelhaxModpack.Properties {
             get {
                 object obj = ResourceManager.GetObject("WoT_brand_light_grey", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon wows_exe {
+            get {
+                object obj = ResourceManager.GetObject("wows_exe", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }

@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Windows;
-using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Windows;
+using AslainWoWSModpack.Utilities;
 using System.Collections.Generic;
 using System.IO;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Linq;
 
-namespace RelhaxModpack.Settings
+namespace AslainWoWSModpack.Settings
 {
     /// <summary>
     /// Handles all parsing and usage of command line arguments.

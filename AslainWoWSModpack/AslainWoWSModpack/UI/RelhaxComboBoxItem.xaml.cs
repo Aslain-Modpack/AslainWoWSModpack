@@ -1,10 +1,10 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// Interaction logic for RelhaxComboBoxItem.xaml

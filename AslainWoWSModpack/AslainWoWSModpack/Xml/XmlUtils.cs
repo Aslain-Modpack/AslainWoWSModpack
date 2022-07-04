@@ -10,17 +10,17 @@ using System.Windows;
 using System.Reflection;
 using System.Text;
 using Ionic.Zip;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Database;
 using System.Net;
 using System.Threading.Tasks;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Xml
+namespace AslainWoWSModpack.Xml
 {
     /// <summary>
     /// Utility class for dealing with Xml features and functions

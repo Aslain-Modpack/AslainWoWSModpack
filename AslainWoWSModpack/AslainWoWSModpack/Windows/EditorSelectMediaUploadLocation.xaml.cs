@@ -12,10 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.IO;
 using System.Net;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for EditorSelectMediaUploadLocation.xaml

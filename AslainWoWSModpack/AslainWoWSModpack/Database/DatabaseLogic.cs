@@ -1,10 +1,10 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// An enumerated representation of "and" and "or" logic

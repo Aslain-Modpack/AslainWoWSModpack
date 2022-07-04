@@ -11,22 +11,22 @@ using System.Net;
 using System.IO;
 using Microsoft.Win32;
 using System.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Xml;
-using RelhaxModpack.UI;
-using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 using Ionic.Zip;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Utilities.Structs;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Utilities.Structs;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for DatabaseUpdater.xaml

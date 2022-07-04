@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Atlases.Packing
+namespace AslainWoWSModpack.Atlases.Packing
 {
     /// <summary>Base class for rectangle packing algorithms</summary>
     /// <remarks>

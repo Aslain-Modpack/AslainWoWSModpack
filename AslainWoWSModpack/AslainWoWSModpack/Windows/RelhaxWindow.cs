@@ -1,8 +1,8 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Settings;
-using RelhaxModpack.UI;
-using RelhaxModpack.UI.Extensions;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.UI.Extensions;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +14,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Defines a window with translation and custom UI color

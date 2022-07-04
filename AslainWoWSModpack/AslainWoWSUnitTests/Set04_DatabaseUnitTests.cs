@@ -6,13 +6,13 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Xml;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RelhaxModpack;
-using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+using AslainWoWSModpack;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 
 namespace RelhaxUnitTests
 {

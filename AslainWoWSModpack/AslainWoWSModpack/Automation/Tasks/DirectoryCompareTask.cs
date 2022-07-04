@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Searches for a list of files to compare and compares their integrity using the MD5 hash algorithm, and comparison method NoMatchContinue.

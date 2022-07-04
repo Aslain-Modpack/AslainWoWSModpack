@@ -1,21 +1,21 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RelhaxModpack;
-using RelhaxModpack.Atlases;
+using AslainWoWSModpack;
+using AslainWoWSModpack.Atlases;
 using System.IO;
 using System.Diagnostics;
 using System.Drawing;
 using System.Collections.Generic;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Utilities;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using RelhaxModpack.Atlases.Packing;
+using AslainWoWSModpack.Atlases.Packing;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Reflection;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
 
 namespace RelhaxUnitTests
 {

@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using System.Windows.Threading;
 using Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT;
 using Microsoft.Toolkit.Forms.UI.Controls;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// An HtmlBrowserParser class enables retrieval of a string of html via downloading a rendered web page resource (with javascript) and parsing for specific values using HtmlPath.

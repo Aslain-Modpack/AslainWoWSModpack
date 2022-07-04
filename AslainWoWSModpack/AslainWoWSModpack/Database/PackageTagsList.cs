@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Collections.Generic;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// A PackageTagsList class is a child class of List of type PackageTags enumeration. Allows for string representation for database serialization.

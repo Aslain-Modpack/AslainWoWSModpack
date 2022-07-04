@@ -4,28 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.UI;
 using System.IO;
 using System.Xml;
 using System.Windows;
 using Ionic.Zip;
 using System.Text.RegularExpressions;
 using System.Threading;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Database;
-using Trigger = RelhaxModpack.Database.Trigger;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Installer;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Database;
+using Trigger = AslainWoWSModpack.Database.Trigger;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Installer;
 using System.Collections;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     #region Stuff
     /// <summary>

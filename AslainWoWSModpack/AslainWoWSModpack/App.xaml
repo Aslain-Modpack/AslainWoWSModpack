@@ -1,8 +1,8 @@
-﻿<Application x:Class="RelhaxModpack.App"
+﻿<Application x:Class="AslainWoWSModpack.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:RelhaxModpack"
-             xmlns:localUI="clr-namespace:RelhaxModpack.UI"
+             xmlns:local="clr-namespace:AslainWoWSModpack"
+             xmlns:localUI="clr-namespace:AslainWoWSModpack.UI"
              xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
              Exit="Application_Exit"
              Startup="Application_Startup" DispatcherUnhandledException="Application_DispatcherUnhandledException">

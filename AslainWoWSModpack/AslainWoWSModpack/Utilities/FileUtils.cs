@@ -7,10 +7,10 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack.Utilities
+namespace AslainWoWSModpack.Utilities
 {
     /// <summary>
     /// A Utility class to deal with Files and Folders

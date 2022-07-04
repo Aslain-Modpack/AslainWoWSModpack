@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Atlases
+namespace AslainWoWSModpack.Atlases
 {
     /// <summary>
     /// A utility class for Atlas file processing.

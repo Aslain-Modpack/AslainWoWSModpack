@@ -8,16 +8,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.UI;
 using System.IO;
 using System.Net;
 using System.Windows.Threading;
-using RelhaxModpack.Database;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for Preview.xaml

@@ -1,8 +1,8 @@
-﻿using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Utilities;
 using System.Windows;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// A static constant reference to common logging variables and common log references

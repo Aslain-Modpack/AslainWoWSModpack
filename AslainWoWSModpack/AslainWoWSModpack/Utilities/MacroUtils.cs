@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RelhaxModpack.Common;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Utilities
+namespace AslainWoWSModpack.Utilities
 {
     /// <summary>
     /// A utility class to handle macros

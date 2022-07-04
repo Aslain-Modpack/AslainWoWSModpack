@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Installer;
+﻿using AslainWoWSModpack.Installer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// A PackageExtractInstruction is a type of Instruction that requires either extracting a file entry from a zip file or copying a file from one location to another.

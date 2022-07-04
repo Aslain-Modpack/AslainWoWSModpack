@@ -1,18 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RelhaxModpack;
-using RelhaxModpack.Automation;
+using AslainWoWSModpack;
+using AslainWoWSModpack.Automation;
 using System;
 using System.Threading.Tasks;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using System.Collections.Generic;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Database;
 using System.Text.RegularExpressions;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
 using System.IO;
 using System.Threading;
-using RelhaxModpack.Automation.Tasks;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Automation.Tasks;
+using AslainWoWSModpack.Utilities;
 using System.Linq;
 
 namespace RelhaxUnitTests

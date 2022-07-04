@@ -1,15 +1,15 @@
-﻿using RelhaxModpack.UI;
+﻿using AslainWoWSModpack.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Controls;
 using System.Text;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
 using System.Xml.Linq;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// A SelectablePackage is a package that can be checked by the user for installation during package selection.

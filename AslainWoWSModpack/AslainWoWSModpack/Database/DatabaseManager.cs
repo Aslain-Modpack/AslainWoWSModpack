@@ -1,28 +1,28 @@
-﻿using RelhaxModpack.Settings;
+﻿using AslainWoWSModpack.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using Ionic.Zip;
 using System.Net;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Utilities;
 using System.IO;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Common;
 using System.Windows;
-using RelhaxModpack.Xml;
+using AslainWoWSModpack.Xml;
 using System.Collections;
 using System.Reflection;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Installer;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Atlases;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Installer;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Atlases;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// Provides methods for loading and saving xml component objects to and from xml database files.

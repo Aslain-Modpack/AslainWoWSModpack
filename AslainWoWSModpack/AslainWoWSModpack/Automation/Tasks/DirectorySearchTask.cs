@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// A DirectorySearchTask provides an implementation to search for files in a path, specifying the file name and recursion.

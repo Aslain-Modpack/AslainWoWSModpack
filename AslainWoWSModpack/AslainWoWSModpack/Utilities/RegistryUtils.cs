@@ -1,12 +1,12 @@
 ﻿using Microsoft.Win32;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace RelhaxModpack.Utilities
+namespace AslainWoWSModpack.Utilities
 {
     /// <summary>
     /// A structure to help with searching for inside the registry by providing a base area to start, and a string search path

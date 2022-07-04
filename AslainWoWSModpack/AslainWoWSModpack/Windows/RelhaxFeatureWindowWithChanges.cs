@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Represents a window where the user is performing operations that are logged and saved to disk (for example, database editing).

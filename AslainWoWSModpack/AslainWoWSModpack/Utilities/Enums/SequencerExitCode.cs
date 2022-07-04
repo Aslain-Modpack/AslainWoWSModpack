@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.Enums
+namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// List of possible return code error conditions that can occur when running a sequence.

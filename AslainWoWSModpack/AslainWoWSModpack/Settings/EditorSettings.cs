@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Settings
+namespace AslainWoWSModpack.Settings
 {
     /// <summary>
     /// The settings used in the editor window

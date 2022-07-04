@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System.Windows.Media;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// The PackageUIComponent class acts as an implementation handler for when the enabled property is set from the Package object.

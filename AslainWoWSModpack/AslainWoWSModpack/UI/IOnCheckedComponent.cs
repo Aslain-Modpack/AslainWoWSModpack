@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// An interface than when implemented implies that the UI component has a reference to the Package object and a method to handle when the Package object gets the Checked Property toggled.

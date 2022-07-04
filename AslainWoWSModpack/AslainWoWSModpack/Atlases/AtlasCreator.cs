@@ -1,8 +1,8 @@
-﻿using RelhaxModpack.Atlases.Packing;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Atlases.Packing;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,7 +18,7 @@ using System.Xml.XPath;
 using TeximpNet;
 using TeximpNet.Compression;
 
-namespace RelhaxModpack.Atlases
+namespace AslainWoWSModpack.Atlases
 {
     /// <summary>
     /// The delegate to invoke when calling back to the sender for the AtlasProgres event.

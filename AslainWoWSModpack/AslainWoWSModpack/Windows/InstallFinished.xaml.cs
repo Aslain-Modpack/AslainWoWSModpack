@@ -1,13 +1,13 @@
 ﻿using Microsoft.Win32;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for InstallFinished.xaml

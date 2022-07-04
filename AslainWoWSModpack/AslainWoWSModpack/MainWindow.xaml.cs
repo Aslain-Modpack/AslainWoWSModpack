@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using RelhaxModpack.Windows;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.Windows;
+using AslainWoWSModpack.UI;
 using System.Xml;
 using System.Diagnostics;
 using Ionic.Zip;
@@ -18,18 +18,18 @@ using Microsoft.Win32;
 using System.Text;
 using Microsoft.WindowsAPICodePack.Taskbar;
 using System.Windows.Threading;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Database;
 using System.Windows.Media;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.UI.Extensions;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.UI.Extensions;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -2499,7 +2499,7 @@ namespace RelhaxModpack
             RelhaxIcon = new System.Windows.Forms.NotifyIcon()
             {
                 Visible = true,
-                Icon = Properties.Resources.modpack_icon,
+                Icon = Properties.Resources.wows_exe,
                 Text = Title
             };
             //create menu options

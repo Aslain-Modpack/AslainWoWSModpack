@@ -1,8 +1,8 @@
 ﻿using HtmlAgilityPack;
-using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ using System.Windows.Forms;
 using System.Windows.Threading;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// Performs a file download on a url resource by parsing an HtmlPath result of the web page (includes parsed from JavaScript).

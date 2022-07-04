@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Atlases;
-using RelhaxModpack.Common;
-using RelhaxModpack.Installer;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Installer;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Windows.Controls;
 using System.Xml.Linq;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// A database component is the base class (that can be instanced) for all other packages. It represents an object in the database..

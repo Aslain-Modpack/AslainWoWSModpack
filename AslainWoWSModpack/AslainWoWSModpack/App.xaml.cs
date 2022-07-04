@@ -5,18 +5,18 @@ using System.Linq;
 using System.Reflection;
 using System.Windows;
 using Microsoft.Win32;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Properties;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Windows;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
-using RelhaxModpack.Installer;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Properties;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Windows;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Installer;
 using System.Windows.Media;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// Interaction logic for App.xaml

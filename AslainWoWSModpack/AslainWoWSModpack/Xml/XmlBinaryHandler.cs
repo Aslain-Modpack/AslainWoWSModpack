@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 using System.Xml;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Xml
+namespace AslainWoWSModpack.Xml
 {
 #pragma warning disable CS1591
     public partial class XmlBinaryHandler

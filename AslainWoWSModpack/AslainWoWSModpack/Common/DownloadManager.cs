@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +13,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RelhaxModpack.Common
+namespace AslainWoWSModpack.Common
 {
     /// <summary>
     /// The DownloadManager class provides an implementation to calculate a file's md5 hash as it downloads and compare it at the end to ensure a complete download.

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Database;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// Represents a package with logical calculations. A dependency is only installed when a selectable package is checked

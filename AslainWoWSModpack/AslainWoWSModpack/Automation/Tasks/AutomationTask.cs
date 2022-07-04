@@ -1,8 +1,8 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Windows;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Windows;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// An AutomationTask represents an action to occur during an automation sequence, used for checking for and updating database package entries.

@@ -1,5 +1,5 @@
-using RelhaxModpack.UI;
-using RelhaxModpack.Windows;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Windows;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,10 +10,10 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Media;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// Handles all localization for the application User Interface

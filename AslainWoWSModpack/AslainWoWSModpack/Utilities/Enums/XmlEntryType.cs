@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.Enums
+namespace AslainWoWSModpack.Utilities.Enums
 {
     /// <summary>
     /// The type of xml entry to look for

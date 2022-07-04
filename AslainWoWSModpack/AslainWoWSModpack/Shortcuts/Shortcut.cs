@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Installer;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Installer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RelhaxModpack.Shortcuts
+namespace AslainWoWSModpack.Shortcuts
 {
     /// <summary>
     /// Represents instructions on how to create a shortcut

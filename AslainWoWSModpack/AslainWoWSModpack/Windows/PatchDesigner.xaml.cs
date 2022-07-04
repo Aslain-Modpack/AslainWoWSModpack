@@ -10,17 +10,17 @@ using Microsoft.Win32;
 using System.IO;
 using System.Windows.Media;
 using System.Text;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Installer;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Installer;
 using System.Reflection;
 using System.ComponentModel;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for PatchDesigner.xaml

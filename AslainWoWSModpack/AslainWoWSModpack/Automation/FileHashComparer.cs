@@ -6,10 +6,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// The FileHashComparer class enables comparison of 2 files by calculating if the MD5 hash values are equal.

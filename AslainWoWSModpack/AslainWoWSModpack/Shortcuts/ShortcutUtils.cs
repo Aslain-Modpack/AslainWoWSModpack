@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -7,7 +7,7 @@ using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using File = System.IO.File;
 
-namespace RelhaxModpack.Shortcuts
+namespace AslainWoWSModpack.Shortcuts
 {
     /// <summary>
     /// A utility class to handle creating of shortcuts

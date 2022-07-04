@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Patching
+namespace AslainWoWSModpack.Patching
 {
     /// <summary>
     /// Represents a patch operation with a description and desired assertion condition

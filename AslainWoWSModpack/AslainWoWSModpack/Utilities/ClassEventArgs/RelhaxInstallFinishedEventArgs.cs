@@ -1,12 +1,12 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Utilities.ClassEventArgs
+namespace AslainWoWSModpack.Utilities.ClassEventArgs
 {
     /// <summary>
     /// Event arguments for when the installer finishes or is ended prematurely

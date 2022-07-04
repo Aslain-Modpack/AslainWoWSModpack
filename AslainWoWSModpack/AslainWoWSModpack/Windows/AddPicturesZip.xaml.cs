@@ -1,5 +1,5 @@
 ﻿using Microsoft.Win32;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Settings;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Path = System.IO.Path;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for AddPicturesZip.xaml

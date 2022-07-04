@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Settings;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for RelhaxLogViewer.xaml

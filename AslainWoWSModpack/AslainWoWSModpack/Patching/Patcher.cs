@@ -9,13 +9,13 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.IO;
 using System.Globalization;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Common;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Patching
+namespace AslainWoWSModpack.Patching
 {
     /// <summary>
     /// A class for handling patch operations

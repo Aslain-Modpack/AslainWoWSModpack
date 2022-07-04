@@ -2,11 +2,11 @@
 using System.Text;
 using System.IO;
 using System.Windows;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Common;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// Delegate for allowing method callback when the logfile writes to disk

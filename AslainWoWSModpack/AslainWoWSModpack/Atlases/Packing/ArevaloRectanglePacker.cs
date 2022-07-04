@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Atlases.Packing
+namespace AslainWoWSModpack.Atlases.Packing
 {
     /// <summary>Rectangle packer using an algorithm by Javier Arevalo</summary>
     /// <remarks>

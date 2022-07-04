@@ -1,4 +1,4 @@
-﻿using RelhaxModpack.Settings;
+﻿using AslainWoWSModpack.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for ScalingConfirmation.xaml

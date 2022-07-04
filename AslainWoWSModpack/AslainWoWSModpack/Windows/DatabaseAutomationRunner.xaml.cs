@@ -1,24 +1,24 @@
-﻿using RelhaxModpack.Settings;
+﻿using AslainWoWSModpack.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using RelhaxModpack.Automation;
-using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Automation;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using Microsoft.Win32;
 using System.IO;
-using RelhaxModpack.Common;
+using AslainWoWSModpack.Common;
 using System.ComponentModel;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.UI;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Threading;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for DatabaseAutomationRunner.xaml

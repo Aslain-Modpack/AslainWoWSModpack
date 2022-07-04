@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 
-namespace RelhaxModpack.UI.Extensions
+namespace AslainWoWSModpack.UI.Extensions
 {
     /// <summary>
     /// The FontExtensions class is a static class that enables extensions for the FontFamily class.

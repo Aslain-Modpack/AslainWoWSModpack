@@ -5,21 +5,21 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System.IO;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.Database;
 using System.Xml.Linq;
 using System.Reflection;
-using RelhaxModpack.Common;
-using RelhaxModpack.Windows;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Windows;
+using AslainWoWSModpack.Settings;
 using System.Diagnostics;
 using System.Threading;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.UI;
 
-namespace RelhaxModpack.Automation
+namespace AslainWoWSModpack.Automation
 {
     /// <summary>
     /// Handles the parsing, running and error management of all automation sequences loaded and set to run.

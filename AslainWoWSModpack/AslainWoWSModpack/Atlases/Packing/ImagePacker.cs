@@ -7,9 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Atlases.Packing
+namespace AslainWoWSModpack.Atlases.Packing
 {
     /// <summary>
     /// Handles packing a list of small bitmap objects into one large bitmap object 

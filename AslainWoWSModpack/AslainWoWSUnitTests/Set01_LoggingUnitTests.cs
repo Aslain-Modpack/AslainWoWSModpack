@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RelhaxModpack;
+using AslainWoWSModpack;
 using System.Collections;
 using System.Linq;
 using System.Diagnostics;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 using System.IO;
 
 namespace RelhaxUnitTests

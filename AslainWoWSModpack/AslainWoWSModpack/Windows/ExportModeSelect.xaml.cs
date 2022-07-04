@@ -1,15 +1,15 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Structs;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Structs;
+using AslainWoWSModpack.Xml;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Xml;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for ExportModeSelect.xaml

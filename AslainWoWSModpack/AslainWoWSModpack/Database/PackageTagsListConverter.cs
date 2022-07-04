@@ -1,9 +1,9 @@
-﻿using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.ComponentModel;
 using System.Globalization;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// Allows conversion of a string representation of PackageTagsList.

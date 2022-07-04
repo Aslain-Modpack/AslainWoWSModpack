@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Common
+namespace AslainWoWSModpack.Common
 {
     /// <summary>
     /// An interface to allow a unique identifier for the given component. Used mostly for identifying a broken or incorrectly parsed component from a log statement

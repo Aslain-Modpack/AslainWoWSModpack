@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     /// <summary>
     /// A SelectionListTabControl provides additional functionality that upon a selection being changed, has each SelectionListTabItem check if any packages in itself are checked.

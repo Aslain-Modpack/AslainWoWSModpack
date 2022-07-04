@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
-using RelhaxModpack.UI;
-using RelhaxModpack.Database;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Database;
 using System.Windows.Controls;
 using System;
 using System.Linq;
 using System.Xml.Linq;
 using System.Reflection;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Database
+namespace AslainWoWSModpack.Database
 {
     /// <summary>
     /// a category is what makes up each tab in the mod selection display window. It holds the first level of list of SelectablePackages.

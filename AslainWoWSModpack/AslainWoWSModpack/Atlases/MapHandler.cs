@@ -1,4 +1,4 @@
-﻿using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Xml;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Utilities.Enums;
 
-namespace RelhaxModpack.Atlases
+namespace AslainWoWSModpack.Atlases
 {
     /// <summary>
     /// A class for handling WG xml atlas map files.

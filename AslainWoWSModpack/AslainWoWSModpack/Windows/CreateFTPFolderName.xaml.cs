@@ -14,10 +14,10 @@ using System.Windows.Shapes;
 using System.IO;
 using Path = System.IO.Path;
 using System.Net;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Settings;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for CreateFTPFolderName.xaml

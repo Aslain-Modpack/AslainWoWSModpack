@@ -2,11 +2,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:RelhaxModpack.Windows"
-             xmlns:Ui="clr-namespace:RelhaxModpack.UI"
+             xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
+             xmlns:Ui="clr-namespace:AslainWoWSModpack.UI"
              xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
              x:Name="comboBox"
-             x:Class="RelhaxModpack.UI.RelhaxWPFComboBox"
+             x:Class="AslainWoWSModpack.UI.RelhaxWPFComboBox"
              mc:Ignorable="d"
              SelectionChanged="ComboBox_SelectionChanged">
     <ComboBox.Resources>

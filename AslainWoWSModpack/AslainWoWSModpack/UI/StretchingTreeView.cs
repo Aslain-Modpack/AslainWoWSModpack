@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace RelhaxModpack.UI
+namespace AslainWoWSModpack.UI
 {
     //https://stackoverflow.com/questions/35556975/horizontalalignment-stretch-not-working-in-treeviewitem
     /// <summary>

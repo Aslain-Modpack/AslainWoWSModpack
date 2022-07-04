@@ -1,9 +1,9 @@
-﻿<local:RelhaxWindow x:Class="RelhaxModpack.Windows.ConflictingPackageDialog"
+﻿<local:RelhaxWindow x:Class="AslainWoWSModpack.Windows.ConflictingPackageDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelhaxModpack.Windows"
+        xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
         mc:Ignorable="d"
         Title="ConflictingPackageDialog" Height="450" Width="800" MinHeight="300" MinWidth="500" Loaded="RelhaxWindow_Loaded"
         LocalizeWindow="True" ApplyToolTips="False">

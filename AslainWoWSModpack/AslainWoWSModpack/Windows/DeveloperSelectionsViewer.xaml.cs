@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Net;
 using System.IO;
 using System.Xml;
-using RelhaxModpack.UI;
-using RelhaxModpack.Xml;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Xml;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Event argument passed back to the caller for when the developer selection window is closed

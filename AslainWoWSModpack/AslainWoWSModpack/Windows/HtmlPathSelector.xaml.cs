@@ -10,14 +10,14 @@ using System.Windows.Forms;
 using System.Xml.XPath;
 using HtmlAgilityPack;
 using Microsoft.Toolkit.Forms.UI.Controls;
-using RelhaxModpack.Automation;
-using RelhaxModpack.Common;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.Automation;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     /// <summary>
     /// Interaction logic for HtmlPathSelector.xaml

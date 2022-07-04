@@ -1,9 +1,9 @@
-﻿<local:RelhaxWindow x:Class="RelhaxModpack.Windows.AskCloseWoT"
+﻿<local:RelhaxWindow x:Class="AslainWoWSModpack.Windows.AskCloseWoT"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelhaxModpack.Windows"
+        xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
         mc:Ignorable="d"
         Title="WoT is Running" Height="150" Width="420" LocalizeWindow="True" ApplyToolTips="False">
     <Window.Resources>

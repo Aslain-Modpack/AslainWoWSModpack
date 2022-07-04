@@ -1,11 +1,11 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Installer;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Installer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RelhaxModpack.Xml
+namespace AslainWoWSModpack.Xml
 {
     /// <summary>
     /// Represents a set of xml instructions for extracting and copying xml files into another location. Includes xml binary decompression

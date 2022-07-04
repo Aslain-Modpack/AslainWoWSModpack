@@ -1,7 +1,7 @@
-﻿using RelhaxModpack.Database;
+﻿using AslainWoWSModpack.Database;
 using System.Drawing;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// A Texture is a piece of an atlas file. Contains image data such as the position, size, and bitmap itself.

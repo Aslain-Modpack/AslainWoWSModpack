@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Database;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using RelhaxModpack.UI;
+using AslainWoWSModpack.UI;
 using System.Threading;
 using System.Windows.Threading;
 using ThreadState = System.Threading.ThreadState;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// A ShellExecuteTask allows the launching of a shell process to run any command.

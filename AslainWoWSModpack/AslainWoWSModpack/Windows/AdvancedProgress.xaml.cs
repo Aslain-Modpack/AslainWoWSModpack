@@ -1,13 +1,13 @@
 ﻿using System.Text;
 using System.IO;
-using RelhaxModpack.UI;
-using RelhaxModpack.Settings;
-using RelhaxModpack.Utilities.Enums;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.Utilities.Enums;
 using System.Collections.Generic;
 using System.Linq;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Utilities;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {   ///I exist as a branch
     /// <summary>
     /// Interaction logic for Window1.xaml

@@ -1,9 +1,9 @@
-﻿using RelhaxModpack.Atlases;
-using RelhaxModpack.Patching;
-using RelhaxModpack.Shortcuts;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+﻿using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Patching;
+using AslainWoWSModpack.Shortcuts;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
-namespace RelhaxModpack.Installer
+namespace AslainWoWSModpack.Installer
 {
     /// <summary>
     /// The instructionLoader class is for loading instructions from legacy style individual xml documents into a list of Instruction objects.

@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.UI;
-using RelhaxModpack.Utilities.Enums;
+﻿using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Common
+namespace AslainWoWSModpack.Common
 {
     /// <summary>
     /// The FileCopier class provides an implementation to, as you may have guessed, copy files. Provides progress and cancellation to a user thread.

@@ -1,5 +1,5 @@
-﻿using RelhaxModpack.Common;
-using RelhaxModpack.UI;
+﻿using AslainWoWSModpack.Common;
+using AslainWoWSModpack.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RelhaxModpack.Automation.Tasks
+namespace AslainWoWSModpack.Automation.Tasks
 {
     /// <summary>
     /// A FileCopyTask allows for the copy of a single file from source to destination.

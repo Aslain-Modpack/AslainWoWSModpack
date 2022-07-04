@@ -1,7 +1,7 @@
 ﻿using Ionic.Zip;
-using RelhaxModpack.Atlases;
-using RelhaxModpack.Common;
-using RelhaxModpack.Utilities;
+using AslainWoWSModpack.Atlases;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using TeximpNet;
 using TeximpNet.Unmanaged;
 
-namespace RelhaxModpack
+namespace AslainWoWSModpack
 {
     /// <summary>
     /// A wrapper class around the TexImpNet NvidiaTT library class.

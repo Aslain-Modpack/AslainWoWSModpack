@@ -1,12 +1,12 @@
 ﻿using Microsoft.Win32;
-using RelhaxModpack.Common;
-using RelhaxModpack.Database;
-using RelhaxModpack.Settings;
-using RelhaxModpack.UI;
-using RelhaxModpack.Utilities;
-using RelhaxModpack.Utilities.ClassEventArgs;
-using RelhaxModpack.Utilities.Enums;
-using RelhaxModpack.Xml;
+using AslainWoWSModpack.Common;
+using AslainWoWSModpack.Database;
+using AslainWoWSModpack.Settings;
+using AslainWoWSModpack.UI;
+using AslainWoWSModpack.Utilities;
+using AslainWoWSModpack.Utilities.ClassEventArgs;
+using AslainWoWSModpack.Utilities.Enums;
+using AslainWoWSModpack.Xml;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,7 +23,7 @@ using System.Windows.Threading;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace RelhaxModpack.Windows
+namespace AslainWoWSModpack.Windows
 {
     #region Stuff
     /// <summary>
