@@ -52,13 +52,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RelhaxModpack\RelhaxModpack.csproj">
+    <ProjectReference Include="..\AslainWoWSModpack\AslainWoWSModpack.csproj">
       <Project>{f59d2189-09c4-4c10-96a2-6d5217ff4ca2}</Project>
-      <Name>RelhaxModpack</Name>
+      <Name>AslainWoWSModpack</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RelhaxUnitTests\RelhaxUnitTests.csproj">
+    <ProjectReference Include="..\AslainWoWSUnitTests\AslainWoWSUnitTests.csproj">
       <Project>{f7b9d482-002d-4498-86f2-9844fe5c688a}</Project>
-      <Name>RelhaxUnitTests</Name>
+      <Name>AslainWoWSUnitTests</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
