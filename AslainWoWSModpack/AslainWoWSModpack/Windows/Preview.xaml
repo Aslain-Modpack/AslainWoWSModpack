@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
         mc:Ignorable="d"
-        Title="Preview" Height="550" Width="450" Icon="/RelhaxModpack;component/Resources/modpack_icon.ico" Loaded="OnPreviewWindowLoad" Closed="RelhaxWindow_Closed"
+        Title="Preview" Height="550" Width="450" Loaded="OnPreviewWindowLoad" Closed="RelhaxWindow_Closed"
         LocalizeWindow="True" ApplyToolTips="False" EscapeKeyClosesWindow="True">
     <Window.Resources>
         <Style TargetType="Grid" BasedOn="{StaticResource DarkThemeGrid}"/>

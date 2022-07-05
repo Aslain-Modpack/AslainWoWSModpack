@@ -153,7 +153,7 @@ namespace AslainWoWSModpack
         private void FinishApplicationInit()
         {
             Logging.WriteHeader(Logfiles.Application);
-            Logging.Info(string.Format("| Relhax Modpack version {0}", CommonUtils.GetApplicationVersion()));
+            Logging.Info(string.Format("| Aslains WoWS Modpack version {0}", CommonUtils.GetApplicationVersion()));
             Logging.Info(string.Format("| Build version {0}, from date {1}", ApplicationConstants.ApplicationVersion.ToString(), CommonUtils.GetCompileTime()));
             Logging.Info(string.Format("| Running on OS {0}", Environment.OSVersion.ToString()));
 

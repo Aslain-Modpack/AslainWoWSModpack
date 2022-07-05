@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
         mc:Ignorable="d"
         Title="Add files to zip" Height="330" Width="600" MinHeight="75" MinWidth="100"
-        LocalizeWindow="True" ApplyToolTips="False"
-        Icon="/RelhaxModpack;component/Resources/modpack_icon.ico">
+        LocalizeWindow="True" ApplyToolTips="False">
     <Window.Resources>
         <Style TargetType="Grid" BasedOn="{StaticResource DarkThemeGrid}"/>
     </Window.Resources>

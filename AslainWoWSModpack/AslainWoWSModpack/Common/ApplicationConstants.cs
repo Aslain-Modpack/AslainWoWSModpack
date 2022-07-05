@@ -432,7 +432,7 @@ namespace AslainWoWSModpack.Common
         /// <summary>
         /// The URL of the V2 manager info zip file.
         /// </summary>
-        public const string ManagerInfoURLBigmods = "https://bigmods.relhaxmodpack.com/RelhaxModpack/managerInfo.dat";
+        public const string ManagerInfoURLBigmods = "https://aslain.com/WoWs/managerInfo.dat";
 
         /// <summary>
         /// The URL to the location of the latest stable version of the application as a zip file.

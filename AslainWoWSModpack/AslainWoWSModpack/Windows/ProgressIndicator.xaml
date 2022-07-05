@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AslainWoWSModpack.Windows"
         mc:Ignorable="d"
-        Title="Loading" Height="200" Width="350" Icon="/RelhaxModpack;component/Resources/modpack_icon.ico" ResizeMode="NoResize" Loaded="OnWindowLoad"
+        Title="Loading" Height="200" Width="350" ResizeMode="NoResize" Loaded="OnWindowLoad"
         LocalizeWindow="True" ApplyToolTips="False">
     <Window.Resources>
         <Style TargetType="Grid" BasedOn="{StaticResource DarkThemeGrid}"/>
