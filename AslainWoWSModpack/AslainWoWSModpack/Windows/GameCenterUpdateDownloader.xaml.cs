@@ -203,8 +203,6 @@ namespace AslainWoWSModpack.Windows
                 }
                 GcDownloadStep1ResetParams(true, true);
                 SelectedClient = Path.GetDirectoryName(manualWoTFind.FileName);
-                //replace the 'win32' or 'win64' directory with nothing (so removing it)
-                SelectedClient = SelectedClient.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
                 Logging.Info("GameCenterDownloader: Selected install -> {0}", SelectedClient);
                 GcDownloadStep1SetupArray();
                 GcDownloadStep1GetParams();

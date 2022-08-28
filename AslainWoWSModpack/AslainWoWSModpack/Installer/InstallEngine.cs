@@ -1351,20 +1351,9 @@ namespace AslainWoWSModpack
 
             string[] logsToDelete = new string[]
             {
-                //32 folders
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT32bitFolder, ApplicationConstants.PythonLog),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT32bitFolder, ApplicationConstants.XvmLog),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT32bitFolder, ApplicationConstants.PmodLog),
                 //64 folders
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT64bitFolder, ApplicationConstants.PythonLog),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT64bitFolder, ApplicationConstants.XvmLog),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT64bitFolder, ApplicationConstants.PmodLog),
-                //root folders
-                Path.Combine(WoTDirectory, ApplicationConstants.PythonLog),
-                Path.Combine(WoTDirectory, ApplicationConstants.XvmLog),
-                Path.Combine(WoTDirectory, ApplicationConstants.PmodLog),
-                Path.Combine(WoTDirectory, "WoTLauncher.log"),
-                Path.Combine(WoTDirectory, "cef.log")
+                Path.Combine(WoTDirectory, "profile", ApplicationConstants.PythonLog),
+                //root folders (TODO)
             };
 
             Prog.ParrentTotal = logsToDelete.Count();

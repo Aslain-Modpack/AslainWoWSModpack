@@ -32,7 +32,7 @@ namespace RelhaxUnitTests
             OpenLogWindowOnStartup = true,
             SuppressDebugMessagesInLogWindow = false,
             UseLocalRunnerDatabase = false,
-            WoTClientInstallLocation = RegistryUtils.AutoFindWoTDirectoryFirst()
+            WoTClientInstallLocation = RegistryUtils.AutoFindWoWsDirectoryFirst()
         };
 
         ModpackSettings ModpackSettings = new ModpackSettings()

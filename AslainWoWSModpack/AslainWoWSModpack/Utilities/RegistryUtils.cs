@@ -43,9 +43,9 @@ namespace AslainWoWSModpack.Utilities
         /// Checks the registry to get the latest location of where WoT is installed, includes exe in the name
         /// </summary>
         /// <returns>True if operation success</returns>
-        public static string AutoFindWoTDirectoryFirst()
+        public static string AutoFindWoWsDirectoryFirst()
         {
-            List<string> searchPathWoT = AutoFindWoTDirectoryList();
+            List<string> searchPathWoT = AutoFindWoWsDirectoryList();
 
             if (searchPathWoT == null || searchPathWoT.Count == 0)
             {
@@ -62,7 +62,7 @@ namespace AslainWoWSModpack.Utilities
         /// Checks the registry to get the latest location of where WoT is installed, includes exe in the name
         /// </summary>
         /// <returns>A list of all unique valid game paths</returns>
-        public static List<string> AutoFindWoTDirectoryList()
+        public static List<string> AutoFindWoWsDirectoryList()
         {
             RegistryKey result;
             List<string> searchPathWoT = new List<string>();
@@ -72,8 +72,9 @@ namespace AslainWoWSModpack.Utilities
             //example value: "C:\TANKS\World_of_Tanks_NA\win64\WorldOfTanks.exe" "%1"
             RegistrySearch[] registryEntriesGroup1 = new RegistrySearch[]
             {
-                new RegistrySearch(){Root = Registry.LocalMachine, Searchpath = @"SOFTWARE\Classes\.wotreplay\shell\open\command"},
-                new RegistrySearch(){Root = Registry.CurrentUser, Searchpath = @"Software\Classes\.wotreplay\shell\open\command"}
+                new RegistrySearch(){Root = Registry.LocalMachine, Searchpath = @"SOFTWARE\Classes\.wowsreplay\shell\open\command"},
+                new RegistrySearch(){Root = Registry.CurrentUser, Searchpath = @"Software\Classes\.wowsreplay\shell\open\command"},
+                new RegistrySearch(){Root = Registry.CurrentUser, Searchpath = @"SOFTWARE\Classes\wows\shell\open\command"}
             };
 
             foreach (RegistrySearch searchPath in registryEntriesGroup1)
@@ -85,7 +86,7 @@ namespace AslainWoWSModpack.Utilities
                     foreach (string valueInKey in result.GetValueNames())
                     {
                         string possiblePath = result.GetValue(valueInKey) as string;
-                        if (!string.IsNullOrWhiteSpace(possiblePath) && possiblePath.ToLower().Contains("worldoftanks.exe"))
+                        if (!string.IsNullOrWhiteSpace(possiblePath) && possiblePath.ToLower().Contains("worldofwarships.exe"))
                         {
                             string[] splitResult = possiblePath.Split('"');
                             //get index 1 option
@@ -123,18 +124,6 @@ namespace AslainWoWSModpack.Utilities
                     result.Dispose();
                     result = null;
                 }
-            }
-
-            Logging.Debug("Filter out win32/64 options");
-            for (int i = 0; i < searchPathWoT.Count; i++)
-            {
-                string potentialResult = searchPathWoT[i];
-                //if it has win32 or win64, filter it out
-                if (potentialResult.Contains(ApplicationConstants.WoT32bitFolderWithSlash) || potentialResult.Contains(ApplicationConstants.WoT64bitFolderWithSlash))
-                {
-                    potentialResult = potentialResult.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
-                }
-                searchPathWoT[i] = potentialResult;
             }
 
             Logging.Debug("Filter out options to non existent locations");

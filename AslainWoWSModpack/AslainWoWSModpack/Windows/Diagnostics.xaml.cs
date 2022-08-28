@@ -53,7 +53,7 @@ namespace AslainWoWSModpack.Windows
             if (string.IsNullOrWhiteSpace(WoTDirectory))
             {
                 Logging.Info("WoTDirectory is empty, add default from registry search");
-                WoTDirectory = RegistryUtils.AutoFindWoTDirectoryFirst();
+                WoTDirectory = RegistryUtils.AutoFindWoWsDirectoryFirst();
                 if (!string.IsNullOrWhiteSpace(WoTDirectory))
                 {
                     WoTDirectory = Path.GetDirectoryName(WoTDirectory);
@@ -82,7 +82,6 @@ namespace AslainWoWSModpack.Windows
             if ((bool)clientSelection.ShowDialog())
             {
                 WoTDirectory = Path.GetDirectoryName(clientSelection.SelectedPath);
-                WoTDirectory = WoTDirectory.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
                 Logging.Info(LogOptions.ClassName, "Selected WoT install: {0}", WoTDirectory);
             }
             else
@@ -280,12 +279,10 @@ namespace AslainWoWSModpack.Windows
 
         private async void CleanupModFilesButton_Click(object sender, RoutedEventArgs e)
         {
+            throw new BadMemeException("this needs to be fixed");
             string[] locationsToCheck = new string[]
             {
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT64bitFolder, ApplicationConstants.ModsDir),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT64bitFolder, ApplicationConstants.ResModsDir),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT32bitFolder, ApplicationConstants.ModsDir),
-                Path.Combine(WoTDirectory, ApplicationConstants.WoT32bitFolder, ApplicationConstants.ResModsDir)
+                
             };
 
             List<string> filesToDelete = new List<string>();

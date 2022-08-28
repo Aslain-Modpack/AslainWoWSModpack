@@ -111,7 +111,7 @@ namespace AslainWoWSModpack
         /// The location of the WoT installation directory parsed at installation time
         /// </summary>
         /// <remarks>The path is absolute, ending at "World_of_Tanks"</remarks>
-        private string WoTDirectory = string.Empty;
+        private string WoWsDirectory = string.Empty;
 
         /// <summary>
         /// The version information of WoT parsed at installation time
@@ -689,6 +689,8 @@ namespace AslainWoWSModpack
 
             ToggleUIButtons(false);
 
+            WoWsVersionHelper versionHelper = null;
+
             if (ModpackSettings.InformIfApplicationInDownloadsFolder)
             { 
                 //inform user if application is in the downloads folder. it is not recommended
@@ -750,7 +752,7 @@ namespace AslainWoWSModpack
                         exportModeSelect.SelectedVersionInfo.WoTOnlineFolderVersion, exportModeSelect.SelectedVersionInfo.WoTClientVersion);
                     WoTModpackOnlineFolderVersion = exportModeSelect.SelectedVersionInfo.WoTOnlineFolderVersion;
                     WoTClientVersion = exportModeSelect.SelectedVersionInfo.WoTClientVersion;
-                    WoTDirectory = foldertoExportTo;
+                    WoWsDirectory = foldertoExportTo;
                 }
                 else
                 {
@@ -773,13 +775,13 @@ namespace AslainWoWSModpack
                 }
 
                 //parse WoT root directory
-                Logging.Debug("Started looking for WoT root directory");
+                Logging.Debug("Started looking for WoWs root directory");
                 string searchResult = string.Empty;
 
                 //only run the code if the user wants to auto find the WoT directory (which is default)
                 if(!ModpackSettings.ForceManuel)
                 {
-                    searchResult = RegistryUtils.AutoFindWoTDirectoryFirst();
+                    searchResult = RegistryUtils.AutoFindWoWsDirectoryFirst();
                 }
 
                 if (string.IsNullOrEmpty(searchResult) || ModpackSettings.ForceManuel)
@@ -791,8 +793,7 @@ namespace AslainWoWSModpack
                     if ((bool)clientSelection.ShowDialog())
                     {
                         searchResult = clientSelection.SelectedPath;
-                        searchResult = searchResult.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
-                        Logging.Info(LogOptions.ClassName, "Selected WoT install: {0}", searchResult);
+                        Logging.Info(LogOptions.ClassName, "Selected WoWs install: {0}", searchResult);
                     }
                     else
                     {
@@ -801,45 +802,37 @@ namespace AslainWoWSModpack
                         return;
                     }
                 }
-                WoTDirectory = Path.GetDirectoryName(searchResult);
-                Logging.Info("Wot root directory parsed as " + WoTDirectory);
-                
-
-                //check to make sure it is the root application, not the win32/64 versions
-                if (searchResult.Contains(ApplicationConstants.WoT32bitFolderWithSlash) || searchResult.Contains(ApplicationConstants.WoT64bitFolderWithSlash))
-                {
-                    searchResult = searchResult.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
-                }
 
                 //check to make sure a valid game path has been returned and the setting file exists in that directory
                 if (string.IsNullOrEmpty(searchResult) || (!File.Exists(searchResult)))
                 {
-                    Logging.Error("Failed to detect WoT exe from path {0}", searchResult);
+                    Logging.Error("Failed to detect WoWs exe from path {0}", searchResult);
                     MessageBox.Show(Translations.GetTranslatedString("failedToFindWoTExe"));
                     ToggleUIButtons(true);
                     return;
                 }
 
-                WoTDirectory = Path.GetDirectoryName(searchResult);
-                Logging.Info("Wot root directory parsed as " + WoTDirectory);
-
-                string versionXml = Path.Combine(WoTDirectory, ApplicationConstants.WoTVersionXml);
-                if (!File.Exists(versionXml))
-                {
-                    Logging.Error("Failed to find WoT version.xml file or the file does not exist! '{0}", versionXml);
-                    MessageBox.Show(Translations.GetTranslatedString("failedToFindWoTVersionXml"));
-                    ToggleUIButtons(true);
-                    return;
-                }
+                WoWsDirectory = Path.GetDirectoryName(searchResult);
+                Logging.Info("WoWs root directory after first auto detect or manual selection parsed as " + WoWsDirectory);
 
                 //check to make sure the application is not in the same directory as the WoT install
-                if (WoTDirectory.Equals(ApplicationConstants.ApplicationStartupPath))
+                if (WoWsDirectory.Equals(ApplicationConstants.ApplicationStartupPath))
                 {
                     //display error and abort
                     MessageBox.Show(Translations.GetTranslatedString("moveOutOfTanksLocation"));
                     ToggleUIButtons(true);
                     return;
                 }
+
+                versionHelper = new WoWsVersionHelper();
+                if (!versionHelper.ParseClientInfo(searchResult))
+                {
+                    Logging.Error("Failed to parse client version installation info");
+                    MessageBox.Show(Translations.GetTranslatedString("failedToParseClientInfo"));
+                    ToggleUIButtons(true);
+                    return;
+                }
+                Logging.Info("Parsed client install directory: {0}", versionHelper.ParsedClientInstallDirectory);
 
                 //if test mode, check if test path exists
                 if (databaseVersion == DatabaseVersions.Test)
@@ -862,12 +855,6 @@ namespace AslainWoWSModpack
                         ModpackSettings.CustomModInfoPath = FindTestDatabaseDialog.FileName;
                     }
                 }
-
-                //get the version of tanks in the format
-                //of the res_mods version folder i.e. 0.9.17.0.3
-                string versionTemp = XmlUtils.GetXmlStringFromXPath(versionXml, ApplicationConstants.WoTVersionXmlXpath);
-                WoTClientVersion = versionTemp.Split('#')[0].Trim().Substring(2).Trim();
-                Logging.Info("Detected client version: {0}", WoTClientVersion);
 
                 //determine if current detected version of the game is supported
                 //only if application distribution is not alpha and database distribution is not test
@@ -939,7 +926,7 @@ namespace AslainWoWSModpack
                     {
                         Logging.Info("NotifyIfSameDatabase is true and databaseDistroVersion is stable, checking if last installed database is the same as current");
                         //get the install log for last installed database version
-                        string installedfilesLogPath = Path.Combine(WoTDirectory, "logs", Logging.InstallLogFilename);
+                        string installedfilesLogPath = Path.Combine(WoWsDirectory, "logs", Logging.InstallLogFilename);
                         if (File.Exists(installedfilesLogPath))
                         {
                             //use index 0 of array, index 18 of string array
@@ -978,7 +965,7 @@ namespace AslainWoWSModpack
                 AutoInstallMode = (sender == null),
                 WotClientVersion = this.WoTClientVersion,
                 DatabaseVersion = this.DatabaseVersion,
-                WoTDirectory = this.WoTDirectory
+                WoTDirectory = versionHelper.ParsedClientInstallDirectory
             };
 
             //https://stackoverflow.com/questions/623451/how-can-i-make-my-own-event-in-c
@@ -1022,10 +1009,10 @@ namespace AslainWoWSModpack
         private async void OnBeginInstallation(DatabaseManager databaseManager, List<SelectablePackage> UserMods, bool isAutoInstall)
         {
             //check if wot is running
-            while (CommonUtils.IsProcessRunning(ApplicationConstants.WoTProcessName, WoTDirectory))
+            while (CommonUtils.IsProcessRunning(ApplicationConstants.WoTProcessName, WoWsDirectory))
             {
                 //create window to determine if cancel, wait, kill TODO
-                AskCloseWoT askCloseWoT = new AskCloseWoT(this.ModpackSettings) { WoTDirectory = this.WoTDirectory };
+                AskCloseWoT askCloseWoT = new AskCloseWoT(this.ModpackSettings) { WoTDirectory = this.WoWsDirectory };
                 //a positive result means that we are going to retry the loop
                 //it could mean the user hit retry (close true), or hit force close (succeeded, and try again anyways)
                 askCloseWoT.ShowDialog();
@@ -1042,7 +1029,7 @@ namespace AslainWoWSModpack
             }
 
             //build macro hash for install
-            MacroUtils.BuildFilepathMacroList(WoTClientVersion, WoTModpackOnlineFolderVersion, WoTDirectory);
+            MacroUtils.BuildFilepathMacroList(WoTClientVersion, WoTModpackOnlineFolderVersion, WoWsDirectory);
 
             //start the timer
             Logging.Info("Starting an installation (timer starts now)");
@@ -1360,7 +1347,7 @@ namespace AslainWoWSModpack
                 CancellationToken = installerCancellationTokenSource.Token,
                 DisableTriggersForInstall = disableTriggersForInstall,
                 DatabaseVersion = this.DatabaseVersion,
-                WoTDirectory = this.WoTDirectory,
+                WoTDirectory = this.WoWsDirectory,
                 WoTClientVersion = this.WoTClientVersion
             };
 
@@ -1425,7 +1412,7 @@ namespace AslainWoWSModpack
                 {
                     if (ModpackSettings.ShowInstallCompleteWindow)
                     {
-                        InstallFinished installFinished = new InstallFinished(this.ModpackSettings) { WoTDirectory = this.WoTDirectory };
+                        InstallFinished installFinished = new InstallFinished(this.ModpackSettings) { WoTDirectory = this.WoWsDirectory };
                         installFinished.ShowDialog();
                     }
                     else
@@ -1806,7 +1793,7 @@ namespace AslainWoWSModpack
             //only run the code if the user wants to auto find the WoT directory (which is default)
             if (!ModpackSettings.ForceManuel)
             {
-                autoSearchResult = RegistryUtils.AutoFindWoTDirectoryFirst();
+                autoSearchResult = RegistryUtils.AutoFindWoWsDirectoryFirst();
             }
 
             if (string.IsNullOrEmpty(autoSearchResult) || ModpackSettings.ForceManuel)
@@ -1818,7 +1805,6 @@ namespace AslainWoWSModpack
                 if ((bool)clientSelection.ShowDialog())
                 {
                     autoSearchResult = clientSelection.SelectedPath;
-                    autoSearchResult = autoSearchResult.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
                     Logging.Info(LogOptions.ClassName, "Selected WoT install: {0}", autoSearchResult);
                 }
                 else
@@ -1828,17 +1814,17 @@ namespace AslainWoWSModpack
                     return;
                 }
             }
-            WoTDirectory = Path.GetDirectoryName(autoSearchResult);
-            Logging.Info("Wot root directory parsed as " + WoTDirectory);
+            WoWsDirectory = Path.GetDirectoryName(autoSearchResult);
+            Logging.Info("Wot root directory parsed as " + WoWsDirectory);
 
             //get the version of tanks in the format of the res_mods version folder i.e. 0.9.17.0.3
-            string versionTemp = XmlUtils.GetXmlStringFromXPath(Path.Combine(WoTDirectory, "version.xml"), "//version.xml/version");
+            string versionTemp = XmlUtils.GetXmlStringFromXPath(Path.Combine(WoWsDirectory, "version.xml"), "//version.xml/version");
             WoTClientVersion = versionTemp.Split('#')[0].Trim().Substring(2);
 
             //verify the uninstall
             string uninstallModeTranslated = ModpackSettings.UninstallMode == UninstallModes.Quick ?
                 Translations.GetTranslatedString("UninstallQuickText") : Translations.GetTranslatedString("UninstallDefaultText");
-            string uninstallConfirmMessage = string.Format(Translations.GetTranslatedString("verifyUninstallVersionAndLocation"), WoTDirectory, uninstallModeTranslated);
+            string uninstallConfirmMessage = string.Format(Translations.GetTranslatedString("verifyUninstallVersionAndLocation"), WoWsDirectory, uninstallModeTranslated);
             if (MessageBox.Show(uninstallConfirmMessage, Translations.GetTranslatedString("confirmUninstallHeader"), MessageBoxButton.YesNo) == MessageBoxResult.No)
             {
                 ToggleUIButtons(true);
@@ -1846,10 +1832,10 @@ namespace AslainWoWSModpack
             }
 
             //check if wot is running
-            while (CommonUtils.IsProcessRunning(ApplicationConstants.WoTProcessName, WoTDirectory))
+            while (CommonUtils.IsProcessRunning(ApplicationConstants.WoTProcessName, WoWsDirectory))
             {
                 //create window to determine if cancel, wait, kill TODO
-                AskCloseWoT askCloseWoT = new AskCloseWoT(this.ModpackSettings) { WoTDirectory = this.WoTDirectory };
+                AskCloseWoT askCloseWoT = new AskCloseWoT(this.ModpackSettings) { WoTDirectory = this.WoWsDirectory };
                 //a positive result means that we are going to retry the loop
                 //it could mean the user hit retry (close true), or hit force close (succeeded, and try again anyways)
                 askCloseWoT.ShowDialog();
@@ -1885,7 +1871,7 @@ namespace AslainWoWSModpack
                 CancellationToken = installerCancellationTokenSource.Token,
                 ModpackSettings = this.ModpackSettings,
                 DatabaseVersion = null, //not needed for uninstall
-                WoTDirectory = this.WoTDirectory,
+                WoTDirectory = this.WoWsDirectory,
                 WoTClientVersion = this.WoTClientVersion
             };
             RelhaxInstallFinishedEventArgs results = await installEngine.RunUninstallationAsync(progress);
@@ -2902,7 +2888,7 @@ namespace AslainWoWSModpack
             if (ModpackSettings.AutoInstall && autoInstallPeriodicTimer.IsEnabled)
                 autoInstallPeriodicTimer.Stop();
 
-            Diagnostics diagnostics = new Diagnostics(this.ModpackSettings) {WoTDirectory = this.WoTDirectory };
+            Diagnostics diagnostics = new Diagnostics(this.ModpackSettings) {WoTDirectory = this.WoWsDirectory };
             diagnostics.ShowDialog();
 
             if (ModpackSettings.AutoInstall)

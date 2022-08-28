@@ -187,7 +187,7 @@ namespace RelhaxInstallerUnitTester
             Assert.IsTrue(args.DatabaseManager.ParsedCategoryList.Count > 0);
 
             //setup for install
-            string wotExeFilepath = RegistryUtils.AutoFindWoTDirectoryFirst();
+            string wotExeFilepath = RegistryUtils.AutoFindWoWsDirectoryFirst();
             string wotExeFolderpath = Path.GetDirectoryName(wotExeFilepath);
 
             //get version folders to install as

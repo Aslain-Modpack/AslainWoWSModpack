@@ -97,16 +97,6 @@ namespace AslainWoWSModpack.Common
         public const string ModInfoZip = "modInfo.dat";
 
         /// <summary>
-        /// The name of the 64bit folder in the 'World_of_Tanks' directory.
-        /// </summary>
-        public const string WoT64bitFolder = "win64";
-
-        /// <summary>
-        /// The name of the 32bit folder in the 'World_of_Tanks' directory.
-        /// </summary>
-        public const string WoT32bitFolder = "win32";
-
-        /// <summary>
         /// The name of the 'mods' directory, stored in the root World_of_Tanks folder.
         /// </summary>
         /// <remarks>
@@ -132,6 +122,11 @@ namespace AslainWoWSModpack.Common
         /// The xpath to get the version is /version.xml/version.
         /// </remarks>
         public const string WoTVersionXml = "version.xml";
+
+        /// <summary>
+        /// The name of the xml file in the World_of_Warships folder used to get client version information.
+        /// </summary>
+        public const string WoWsGameInfoXml = "game_info.xml";
 
         /// <summary>
         /// The name of the installer folder that used to hold all patch instruction files in for processing.
@@ -323,16 +318,6 @@ namespace AslainWoWSModpack.Common
         public static readonly string LastInstalledConfigFilepath = Path.Combine(RelhaxUserSelectionsFolderPath, LastSavedConfigFilename);
 
         /// <summary>
-        /// The WoT 64bit folder name with the folder separator before it.
-        /// </summary>
-        public static readonly string WoT64bitFolderWithSlash = Path.DirectorySeparatorChar + WoT64bitFolder;
-
-        /// <summary>
-        /// The WoT 32bit folder name with the folder separator before it.
-        /// </summary>
-        public static readonly string WoT32bitFolderWithSlash = Path.DirectorySeparatorChar + WoT32bitFolder;
-
-        /// <summary>
         /// The location of the WoT app data folder parsed.
         /// </summary>
         public static readonly string AppDataFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Wargaming.net", "WorldOfTanks");
@@ -348,6 +333,11 @@ namespace AslainWoWSModpack.Common
         /// </summary>
         /// <remarks>A custom feature window (for example, the editor) will have its own log file to use, which enables multiple feature window instances open from the same exe at the same time.</remarks>
         public static readonly string RelhaxLogFilepath = Path.Combine(ApplicationStartupPath, Logging.ApplicationLogFilename);
+
+        /// <summary>
+        /// The name of the World of Warships executable in the game's root directory.
+        /// </summary>
+        public const string WoWsExeName = "WorldOfWarships.exe";
 
         /// <summary>
         /// The list of installer folders in the root {WoT} directory to cleanup after an installation.

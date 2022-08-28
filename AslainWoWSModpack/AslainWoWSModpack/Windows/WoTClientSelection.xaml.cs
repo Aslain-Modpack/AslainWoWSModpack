@@ -41,7 +41,7 @@ namespace AslainWoWSModpack.Windows
         private void RelhaxWindow_Loaded(object sender, RoutedEventArgs e)
         {
             //get client paths
-            List<string> clientPaths = RegistryUtils.AutoFindWoTDirectoryList();
+            List<string> clientPaths = RegistryUtils.AutoFindWoWsDirectoryList();
 
             //load selections into stackpanel
             bool firstOne = true;
@@ -66,7 +66,7 @@ namespace AslainWoWSModpack.Windows
                 AddExtension = true,
                 CheckFileExists = true,
                 CheckPathExists = true,
-                Filter = "WorldOfTanks.exe|WorldOfTanks.exe",
+                Filter = string.Format("{0}|{0}", ApplicationConstants.WoWsExeName), //"WorldOfTanks.exe|WorldOfTanks.exe",
                 Title = Translations.GetTranslatedString("selectWOTExecutable"),
                 Multiselect = false,
                 ValidateNames = true
@@ -74,7 +74,6 @@ namespace AslainWoWSModpack.Windows
             if ((bool)manualWoTFind.ShowDialog())
             {
                 SelectedPath = manualWoTFind.FileName;
-                SelectedPath = SelectedPath.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
                 Logging.Info(LogOptions.ClassName, "Selected WoT install manually: {0}", SelectedPath);
                 DialogResult = true;
                 Close();

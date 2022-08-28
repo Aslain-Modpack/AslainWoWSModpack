@@ -12,7 +12,7 @@ namespace AslainWoWSModpack
         /// <summary>
         /// The filename of the application log file
         /// </summary>
-        public const string ApplicationLogFilename = "Relhax.log";
+        public const string ApplicationLogFilename = "AslainWoWS.log";
 
         /// <summary>
         /// The filename of the old application log file

@@ -844,17 +844,6 @@ namespace AslainWoWSModpack.Utilities
 
         #region Other
         /// <summary>
-        /// Removes the directory character and Wots 'win32' and/or 'win64' directories if it exists in the string
-        /// </summary>
-        /// <param name="wotPath">The path to the WoT exe</param>
-        /// <returns>The absolute directory path to the World_of_Tanks folder</returns>
-        /// <remarks>This is for in case the user specifies the WoT exe inside the win32 and/or win64 folders</remarks>
-        public static string RemoveWoT32bit64bitPathIfExists(string wotPath)
-        {
-            return wotPath.Replace(ApplicationConstants.WoT32bitFolderWithSlash, string.Empty).Replace(ApplicationConstants.WoT64bitFolderWithSlash, string.Empty);
-        }
-
-        /// <summary>
         /// Copies a file from one path or in an archive to a destination
         /// </summary>
         /// <param name="package">The zip archive to extract the file from</param>

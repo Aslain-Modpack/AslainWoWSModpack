@@ -667,7 +667,7 @@ namespace AslainWoWSModpack.Utilities
                     }
                 }
 
-                string processStartFilepathCorrected = FileUtils.RemoveWoT32bit64bitPathIfExists(processStartFilepath);
+                string processStartFilepathCorrected = processStartFilepath;
                 Logging.Debug("[GetProcess()]: Checking if path process {0} matching with path {1}", processStartFilepathCorrected, pathToMatch);
                 if (pathToMatch.Equals(processStartFilepathCorrected))
                 {
